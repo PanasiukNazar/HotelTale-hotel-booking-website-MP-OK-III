@@ -3683,6 +3683,12 @@ fieldset:disabled .btn {
     font-size: 1.25rem;
     white-space: nowrap;
 }
+
+@media (max-width: 772px) {
+    .navbar-brand img {
+        display: none;
+    }
+}
 .navbar-nav {
     display: flex;
     flex-direction: column;
